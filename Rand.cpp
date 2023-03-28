@@ -4,7 +4,7 @@
 int main () {
     int num;
     srand(time(0));
-
+    //For Loop for iterating 10 numbers between 1-5.
     for (int i = 0; i < 10; i++)
     {
         num = rand() % (6 - 1) + 1;
